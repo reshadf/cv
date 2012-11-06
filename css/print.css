@@ -1,0 +1,193 @@
+* {
+  margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+body {
+    background: url('../img/bg.jpg') center center fixed #000;
+
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+
+    color: #404040;
+
+}
+
+/*======================
+title set
+======================*/
+
+a {
+	text-decoration: none;
+}
+
+.title {
+
+    width: 5%;
+    padding-left: 1%;
+}
+
+.personal h2 {
+    background: #D63C33 ;
+}
+
+.personal a {
+	color: #D63C33;
+}
+
+.skills h2 {
+    background: #50C9EB;
+}
+
+.experience h2 {
+    background: #50EB64;
+}
+
+.education h2 {
+    background: #EBE850;
+}
+
+.interests h2 {
+    background: #EB509D;
+}
+
+/*=====================*/
+
+header {
+    margin-right: 15%;
+    float: right;
+    position: relative;
+    color: #fff;
+}
+
+h1 {
+    /* font styles */
+    font-size: 3.25em;
+    font-family: font-family: 'Scada', sans-serif; 
+    font-weight: 900;
+
+}
+
+h2 {
+	height: 100%;
+	float: left;
+	clear: both;
+	overflow: hidden;
+    text-transform: uppercase;
+    color: #fff;
+    word-wrap: break-word;
+    letter-spacing: 20px; 
+
+    -moz-box-shadow: 3px 3px 10px #888;
+	-webkit-box-shadow: 3px 3px 10px #888;
+	box-shadow: 3px 3px 10px #888;
+
+  display: none;
+}
+
+h3 {
+	text-transform: uppercase;
+	margin-left: 8%;
+	color: #353535;
+	width: 250px;
+	margin-top: 2%;
+}
+
+p {
+    margin-left: 18%;
+    margin-right: 8%;
+    height: 100%;
+    width: 60%;	
+    margin-top: 15px;
+}
+
+#photo {
+	text-align: center;
+	float: right;
+	margin-right: 5%;
+	margin-top: 20px;
+	position: relative;
+
+  display: none;
+}
+
+img {
+	width: 100px;
+	border: 10px solid #292929;
+	max-width: 100%;
+	height: auto;
+	width: auto\9; /* ie8 */
+
+}
+
+.container {
+
+    position: relative;
+    margin: 40px auto;
+    width: 70%;
+    overflow: hidden;
+    background: url('../img/bg.png') #000;
+}
+
+section {
+	overflow: hidden;
+}
+
+table {
+	width: 60%;
+	margin-left: 18%;
+	margin-top: 15px;
+	font-size: 0.85em;
+}
+
+table td {
+	border-bottom: 1px dashed #888;
+	padding: 5px;
+}
+
+table tr td:nth-child(2) {
+	text-align: right;
+}
+
+.experience h3 {
+	margin: 0;
+	text-transform: none;
+	font-weight: normal;
+}
+
+.education h3 {
+	margin: 0;
+	text-transform: none;
+	font-weight: normal;
+}
+
+.date {
+	color: #D63C33;
+}
+
+/*stars rating */
+.classification { 
+	position: relative;
+	width: 91px;
+	height: 17px;
+	float: right;
+}
+.classification .cover {
+	position: absolute;
+	background: transparent url(../img/stars.png) top left no-repeat;
+	top: 0px;
+	left: 0px;
+	width: 91px;
+	height: 17px;
+	z-index: 101;
+}
+.classification .progress {
+	position: absolute;
+	background: transparent url(../img/stars_full.png) top left no-repeat;
+	top: 0px;
+	left: 0px;
+	height: 17px;
+	z-index: 102;
+}
