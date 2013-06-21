@@ -1,7 +1,7 @@
 * {
   margin: 0;
-    padding: 0;
-    list-style-type: none;
+  padding: 0;
+  list-style-type: none;
 }
 
 body {
@@ -53,14 +53,11 @@ a {
     background: #EB509D;
 }
 
-/*=====================*/
-
-header {
-    margin-right: 15%;
-    float: right;
-    position: relative;
-    color: #fff;
+.tools h2 {
+  background: #FF9100;
 }
+
+/*=====================*/
 
 h1 {
     /* font styles */
@@ -79,6 +76,7 @@ h2 {
     color: #fff;
     word-wrap: break-word;
     letter-spacing: 20px; 
+    line-height: 50px;
 
     -moz-box-shadow: 3px 3px 10px #888;
 	-webkit-box-shadow: 3px 3px 10px #888;
@@ -104,15 +102,16 @@ p {
 #photo {
 	text-align: center;
 	float: right;
+  right: 0;
 	margin-right: 5%;
 	margin-top: 20px;
-	position: relative;
+	position: absolute;
 }
 
 img {
 	width: 100px;
 	border: 10px solid #292929;
-	max-width: 100%;
+/*	max-width: 100%;
 	height: auto;
 	width: auto\9; /* ie8 */
 
@@ -147,13 +146,7 @@ table tr td:nth-child(2) {
 	text-align: right;
 }
 
-.experience h3 {
-	margin: 0;
-	text-transform: none;
-	font-weight: normal;
-}
-
-.education h3 {
+h3 {
 	margin: 0;
 	text-transform: none;
 	font-weight: normal;
@@ -186,6 +179,10 @@ table tr td:nth-child(2) {
 	left: 0px;
 	height: 17px;
 	z-index: 102;
+}
+
+.textprogress {
+  display: none;
 }
 
 /* media queries */
@@ -224,3 +221,4 @@ table tr td:nth-child(2) {
   	margin-left: 15%;
   }
 }
+
