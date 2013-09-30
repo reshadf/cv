@@ -222,3 +222,11 @@ h3 {
   }
 }
 
+#disqus {
+  background-color: #ffffff;
+  position: relative;
+    margin: 0px auto;
+    width: 69%;
+    overflow: hidden;
+    padding: 10px;
+}
